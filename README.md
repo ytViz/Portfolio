@@ -14,13 +14,11 @@ currently being supported with security updates.
 
 | Version | Status             |
 | ------- | ------------------ |
-| 1.1.1   | :white_check_mark: |
+| 1.1.0   | :white_check_mark: |
 | 1.0.0   | :x:                |
 
-## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+# Vulnerabilities 
+## 1.0.0
+This version had depends that could easily be backdoored to have root access to the site. Will be fixed in a few hours to update version 1.1.0.

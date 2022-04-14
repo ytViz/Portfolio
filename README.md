@@ -15,6 +15,7 @@ currently being supported with security updates.
 | Version | Status             |
 | ------- | ------------------ |
 | 1.1.1   | :white_check_mark: |
+| 1.0.0   | :x:                |
 
 ## Reporting a Vulnerability
 

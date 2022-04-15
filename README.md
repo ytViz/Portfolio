@@ -16,7 +16,4 @@ currently being supported with security updates.
 This version had depends that could easily be backdoored to have root access to the site. Will be fixed in a few hours to update version 1.1.0. [UPDATE] This is fixed!
 
 
-UPDATE LOG: 
-[EVERYTIME YOU UPDATE TRACK IT HERE]
-4/14 Invited Apexfinity and blackberry850_dev[APEXFINITY]
-4/14 added games and updated css on website[BLACKBERRY & VVX]
+

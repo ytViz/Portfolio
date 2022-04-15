@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: #7df09b;
+    background: url('/img/background_img.gif')
     color: white;
     font-family: WalkTheMoon;
     

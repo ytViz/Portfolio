@@ -1,5 +1,5 @@
-html
-body,
+html,
+body
 .header {
   display: table;
   height: 100%;

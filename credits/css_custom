@@ -1,6 +1,6 @@
 html,
-body
-.header {
+body {
+.header 
   display: table;
   height: 100%;
   width: 100%;

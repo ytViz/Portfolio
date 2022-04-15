@@ -9,7 +9,7 @@
 
 :root {
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  background: url='/img/background_img.gif'
+  background: url('/img/background_img.gif')
   color: var(--fg-primary);
   font-size: var(--fs-regular);
   user-select: none;

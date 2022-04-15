@@ -9,7 +9,7 @@
 
   body {
  
-    background-color: #7df09b;
+    background: url('/img/background_img.gif'); 
     font-family: WTM;
     color:white;
   }

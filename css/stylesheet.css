@@ -3,3 +3,7 @@ main {
     padding: 1rem;
     backdrop-filter: blur(10px);
     }
+@font-face {
+    src: url(ttf/JetBrainsMono-Regular.ttf);
+    font-family: JetBrainsMono;
+}

@@ -2,9 +2,18 @@
     src: url(/ttf/JetBrainsMono-Regular.ttf);
     font-family: JetBrainsMono;
 }
+html {
+
+background: rgba(48, 33, 33, 0.21);
+}
 main {
     position: relative;
     padding: 1rem;
     backdrop-filter: blur(10px);
     font-family: JetBrainsMono;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(48, 33, 33, 0.69);
     }

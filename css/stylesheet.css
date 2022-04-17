@@ -30,3 +30,12 @@ button {
     color: white;
     font-family: JetBrainsMono;
 }
+
+games {
+    width: 137px;
+    border-radius: 15px;
+    padding: 6px;    
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}

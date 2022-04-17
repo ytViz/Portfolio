@@ -10,8 +10,6 @@ html {
     background-size: cover;
     font-family: JetBrainsMono;
     color: white;
-    position: relative;
-    padding: 1rem;
 }
 main {
    background: rgba( 32, 5, 5, 0.15 );
@@ -20,6 +18,8 @@ main {
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    padding: 1rem;
     }
 button {
     background: rgba( 47, 44, 44, 0.6 );

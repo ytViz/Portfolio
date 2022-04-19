@@ -42,10 +42,11 @@ button {
 .title {
   font-size: 75px;
     color: white;
-    font-family: WalkTheMoon;
+    font-family: JetBrainsMono;
     text-align: center;
     padding: 15px;
 }
 .menubar {
     text-align: center;
+    font-family: JetBrainsMono;
 }

@@ -4,7 +4,7 @@
 
 currentPage = windows.location.href;
 
-if (currentPage.includes('vvxweb.ga') || currentPage.includes('about:blank')) {
+if (currentPage.indexOf('vvxweb.ga') || currentPage.indexOf('about:blank')) {
 
 console.log('Check passed.');
 

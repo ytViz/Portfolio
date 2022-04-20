@@ -2,7 +2,7 @@
 
 // Making sure this page isn't hosted somewhere else...
 
-currentPage = windows.location.href;
+currentPage = window.location.href;
 
 if (currentPage.indexOf('vvxweb.ga') || currentPage.indexOf('about:blank')) {
 

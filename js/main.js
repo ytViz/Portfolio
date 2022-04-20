@@ -8,9 +8,7 @@ if (currentPage.includes('vvxweb.ga') || currentPage.includes('about:blank')) {
 
 console.log('Check passed.')
 
-}
-
-else {
+} else {
     
     window.location.replace("https://vvxweb.ga")
 

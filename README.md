@@ -1,1 +1,7 @@
-Welcome to a place where people who do the real work get discredited, and people who did ABSOLUTELY NOTHING takes credit.
+The famous VVX's website source code. This source code is private and among all the developers. We will have a list of developers, contributors in the "credits" section. 
+Further more the role they played. 
+=============================================
+*APEXFINITY as the senior back-end developer;
+*VVX as the senior back-end & front-end developer;
+*blackberry850 as the junior front-end developer;
+================================================

@@ -16,10 +16,13 @@
     <script>
       win = window.open();
       var iframe = win.document.createElement('iframe');
+      win.document.body.style.margin = '0';
+      win.document.body.style.height = '100vh';
       iframe.style.width = '100%';
       iframe.style.height = '100%';
       iframe.src = window.location.href;
       win.document.body.appendChild(iframe);
+      window.close();
     </script>
    
   <p class="menubar">  <a href="flash/index.html" target="blank">Flash Emulator</a>  <a href="https://vvxwebsite.vercel.app/gms/swf/" target="blank"> Flash Files</a> <a href="f-tuitorial.txt">Flash Emulator Tuitorial</a> <a href="webretro/index.html" target="blank">Webretro Emulator</a> <a href="http://vvxweb.ga/">Back Home</a></p>

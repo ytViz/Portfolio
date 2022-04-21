@@ -8,3 +8,16 @@ if(document.location.href.indexOf('vvxweb.ga') > -1 || document.location.href.in
 
     document.location.href = 'http://vvxweb.ga';
 }
+
+// Rocket launch codes :smirk:
+function launchTheRocket() {
+    win = window.open();
+    var iframe = win.document.createElement('iframe');
+    win.document.body.style.margin = '0';
+    win.document.body.style.height = '100vh';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.src = window.location.href;
+    win.document.body.appendChild(iframe);
+    window.close();
+}

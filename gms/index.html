@@ -8,11 +8,18 @@
     <!--<link rel="stylesheet" href="gstyle.css">-->
  <link rel="stylesheet" href="/css/stylesheet.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <script src="path/to/ruffle/ruffle.js"></script>
+    <script src="/js/main.js"></script>
    <title>VVX GAMEHUB</title>
 </head>
 <body>
     <h1 class="title">Games</h1>
+    <script>
+      var iframe = window.document.createElement('iframe');
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.src = window.location.href;
+      window.document.body.appendChild(iframe);
+    </script>
    
   <p class="menubar">  <a href="flash/index.html" target="blank">Flash Emulator</a>  <a href="https://vvxwebsite.vercel.app/gms/swf/" target="blank"> Flash Files</a> <a href="f-tuitorial.txt">Flash Emulator Tuitorial</a> <a href="webretro/index.html" target="blank">Webretro Emulator</a> <a href="http://vvxweb.ga/">Back Home</a></p>
   <br>

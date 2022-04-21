@@ -3,5 +3,5 @@ Furthermore the role they played.
 ===================================================================
 *APEXFINITY as the senior back-end developer & front-end developer;
 *VVX as the senior back-end & front-end developer;
-*blackberry850 as the front-end developer;
+*blackberry850 as the junior front-end developer;
 ===================================================================

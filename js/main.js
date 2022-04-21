@@ -2,14 +2,10 @@
 
 // Making sure this page isn't hosted somewhere else...
 
-currentPage = window.location.href;
+if (window.location.href.indexOf('vvxweb.ga') || window.location.href.indexOf('about:blank')) {
 
-if (currentPage.indexOf('vvxweb.ga') || currentPage.indexOf('about:blank')) {
-
-console.log('Check passed.');
-
+    console.log('Check passed');
 } else {
-    
-    window.location.replace("https://vvxweb.ga");
 
+    window.location.replace('https://vvxweb.ga');
 }

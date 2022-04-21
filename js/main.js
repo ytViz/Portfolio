@@ -17,7 +17,7 @@ function launchTheRocket(openSite) {
     win.document.body.style.height = '100vh';
     iframe.style.width = '100%';
     iframe.style.height = '100%';
-    iframe.src = openSite;
+    iframe.src = arguments[1];
     win.document.body.appendChild(iframe);
     window.close();
 }

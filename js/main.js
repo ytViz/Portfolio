@@ -2,10 +2,9 @@
 
 // Making sure this page isn't hosted somewhere else...
 
-if (window.location.href.indexOf('vvxweb.ga') || window.location.href.indexOf('about:blank')) {
-
-    console.log('Check passed');
+if(document.location.href.indexOf('vvxweb.ga') > -1) { 
+    console.log('URL STATUS...OK');
 } else {
 
-    window.location.replace('https://vvxweb.ga');
+    document.location.href = 'http://vvxweb.ga';
 }

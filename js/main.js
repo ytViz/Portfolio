@@ -11,7 +11,7 @@ if(document.location.href.indexOf('vvxweb.ga') > -1 || document.location.href.in
 
 // Rocket launch codes :smirk:
 function launchTheRocket(a, b, c) {
-    win = window.open();
+    win = window.open("_self");
     var iframe = win.document.createElement('iframe');
     win.document.body.style.margin = '0';
     win.document.body.style.height = '100vh';

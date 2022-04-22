@@ -33,7 +33,7 @@ if (!popup || popup.closed) {
   img.href = "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png"
   doc.title = "Google Drive"
 
-  iframe.src = location.href
+  iframe.src = a
   style.position = "fixed"
   style.top = style.bottom = style.left = style.right = 0
   style.border = style.outline = "none"

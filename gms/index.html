@@ -33,6 +33,25 @@ function openBackup() {
     tab.document.close();
     window.location.replace(redirectSite);
 }
+if (window.location.pathname == "/") {
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+    });
+    if (params.url) {
+        var frameUrl = params.url;
+        if (params.url.startsWith("/gams")) {
+            frameUrl = "/g" + frameUrl.substring(5);
+        }
+        document.querySelector(".frame").src = window.location.origin + frameUrl;
+    }
+    if (params.gams = "true") {
+        document.body.style.backgroundImage = "none";
+        document.body.style.backgroundColor = "white";
+    }
+    if (inFrame() != true && usingFirefox() != true) {
+        console.log('OK...PASSED!');
+        };
+      };
     </script>
    
   <p class="menubar">  <a href="flash/index.html" target="blank">Flash Emulator</a>  <a href="https://vvxwebsite.vercel.app/gms/swf/" target="blank"> Flash Files</a> <a href="f-tuitorial.txt">Flash Emulator Tuitorial</a> <a href="webretro/index.html" target="blank">Webretro Emulator</a> <a href="http://vvxweb.ga/">Back Home</a></p>

@@ -16,7 +16,8 @@
     <script>
      if (document.referrer != 'about:blank') {
        alert('Launch this from the homepage only!');
-       launchTheRocket(document.domain + "/gms/")
+       launchTheRocket("/gms/");
+       window.close();
      }
     </script>
    

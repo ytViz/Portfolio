@@ -14,10 +14,13 @@
 <body>
     <h1 class="title">Games</h1>
     <script>
-     if (document.referrer != 'about:blank') {
-       alert('Launch this from the homepage only!');
+     if (document.referrer == 'about:blank') {
+      alert('enjoy!')
+     } else {
+      alert('Launch this from the homepage only!');
        launchTheRocket(window.location.href);
        window.close();
+      
      }
     </script>
    

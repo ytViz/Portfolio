@@ -14,9 +14,9 @@
 <body>
     <h1 class="title">Games</h1>
     <script>
-     if (window.location.href != 'about:blank') {
+     if (document.referrer != 'about:blank') {
        alert('Launch this from the homepage only!');
-       startTheRocket('/gms/')
+       startTheRocket(document.domain + "/gms/")
      }
     </script>
    

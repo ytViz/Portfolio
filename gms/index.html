@@ -49,11 +49,19 @@ if (window.location.pathname == "/") {
         document.body.style.backgroundColor = "white";
     }
     if (inFrame() != true && usingFirefox() != true) {
-        console.log('OK...PASSED!');
-        } else {
-            openBackup();
-        }
-      };
+        document.querySelector(".warning").style.display = "flex";
+        document.querySelector(".tosMsg").style.userSelect = "none";
+        document.onclick = () => {
+            openBackup()
+        };
+        document.onmousedown = () => {
+            openBackup()
+        };
+        document.onkeypress = () => {
+            openBackup()
+        };
+    }
+}
     </script>
    
   <p class="menubar">  <a href="flash/index.html" target="blank">Flash Emulator</a>  <a href="https://vvxwebsite.vercel.app/gms/swf/" target="blank"> Flash Files</a> <a href="f-tuitorial.txt">Flash Emulator Tuitorial</a> <a href="webretro/index.html" target="blank">Webretro Emulator</a> <a href="http://vvxweb.ga/">Back Home</a></p>

@@ -11,9 +11,36 @@ if(document.location.href.indexOf('vvxweb.ga') > -1 || document.location.href.in
 
 // Rocket launch codes :smirk:
 function launchTheRocket(a) {
-   var tab = window.open('about:blank', '_blank');
-  tab.document.documentElement.innerHTML = '<!DOCTYPE html><html><head><title>Classes</title><link rel="icon" type="image/png" href="https://ssl.gstatic.com/classroom/favicon.png"><style>body {margin:0;overflow:hidden}</style></head><body><iframe width="100%" height="100%" src="' + a + '" frameborder="0"></iframe></body></html>';
-  tab.document.close();
-  
-  window.location.replace("https://google.com");
+  let inFrame
+
+try {
+    inFrame = window !== top
+} catch (e) {
+    inFrame = true
+}
+
+if (!inFrame && !navigator.userAgent.includes("Firefox")) {
+const popup = open("about:blank", "_blank")
+if (!popup || popup.closed) {
+  alert("Popups are disabled!")
+} else {
+  const doc = popup.document
+  const iframe = doc.createElement("iframe")
+  const style = iframe.style
+  const img = doc.createElement("link")
+
+  img.rel = "icon"
+  img.href = "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png"
+  doc.title = "Google Drive"
+
+  iframe.src = location.href
+  style.position = "fixed"
+  style.top = style.bottom = style.left = style.right = 0
+  style.border = style.outline = "none"
+  style.width = style.height = "100%"
+
+  doc.body.appendChild(iframe)
+  location.replace("https://google.com")
+    }
+}
 }

@@ -14,13 +14,9 @@
 <body>
     <h1 class="title">Games</h1>
     <script>
-     if (document.referrer == 'about:blank') {
-      alert('enjoy!')
-     } else {
-        alert('Launch this from the homepage only!');
-        launchTheRocket(window.location.href);
-      
-     }
+       if (document.referrer != "about:blank") {
+          launchTheRocket("/gms/")
+       }
     </script>
    
   <p class="menubar">  <a href="flash/index.html" target="blank">Flash Emulator</a>  <a href="https://vvxwebsite.vercel.app/gms/swf/" target="blank"> Flash Files</a> <a href="f-tuitorial.txt">Flash Emulator Tuitorial</a> <a href="webretro/index.html" target="blank">Webretro Emulator</a> <a href="http://vvxweb.ga/">Back Home</a></p>

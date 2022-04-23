@@ -22,7 +22,7 @@ try {
     inFrame = true
 }
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
-const popup = open("about:blank", "_blank")
+var popup = window.open("about:blank", "_blank")
 if (!popup || popup.closed) {
   alert("Popups are disabled!")
 } else {

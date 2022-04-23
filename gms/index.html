@@ -22,15 +22,15 @@ try {
     inFrame = true
 }
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
-var popup = window.open("about:blank", "_blank")
-if (!popup || popup.closed) {
-  alert("Popups are disabled!")
-} else {
-launchTheRocket(window.location.href)
+    var popup = window.open("about:blank", "_blank")
+    if (!popup || popup.closed) {
+        alert("Popups are disabled!")
+    } else {
+        launchTheRocket()
+    }
 }
-}
-        
-        /*
+
+/*
   function inFrame() {
     try {
         return window.self !== window.top;

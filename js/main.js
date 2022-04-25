@@ -36,7 +36,9 @@ if (!inFrame() && usingFirefox() != true) {
         } else {
             tab.document.documentElement.innerHTML = '<!DOCTYPE html><html><head><title>Classes</title><link rel="icon" type="image/png" href="https://ssl.gstatic.com/classroom/favicon.png"><style>body {margin:0;overflow:hidden}</style></head><body><iframe width="100%" height="100%" src="' + window.location.origin + '" frameborder="0"></iframe></body></html>';
         }
+        tab.contentWindow.focus();
         tab.document.close();
+        
         window.location.replace(redirectSite);
     }
 }

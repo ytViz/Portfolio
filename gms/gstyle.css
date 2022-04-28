@@ -13,6 +13,8 @@
 
 .body {
  background-image: url('/img/yay.gif');
+  height:100%;
+  width:100%;
 }
 a {
     color: #0d4175;

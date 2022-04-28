@@ -12,8 +12,7 @@
 }
 
 .body {
- background: url("/img/sehejcssever.gif");
-  
+ background-image: url('/img/yay.gif');
 }
 a {
     color: #0d4175;

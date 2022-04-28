@@ -4,7 +4,6 @@ SliderJS - Ettrics;
 Design - Sara Mazal Web;
 Fonts - Google Fonts
 */
-
 window.onload = function () {
   Particles.init({
     selector: ".background"
@@ -25,7 +24,6 @@ var particles = Particles.init({
     }
   ]
 });
-
 class NavigationPage {
   constructor() {
     this.currentId = null;
@@ -43,26 +41,22 @@ class NavigationPage {
       this.onResize();
     });
   }
-
   onTabClick(event, element) {
     event.preventDefault();
     let scrollTop =
       $(element.attr("href")).offset().top - this.tabContainerHeight + 1;
     $("html, body").animate({ scrollTop: scrollTop }, 600);
   }
-
   onScroll() {
     this.checkHeaderPosition();
     this.findCurrentTabSelector();
     this.lastScroll = $(window).scrollTop();
   }
-
   onResize() {
     if (this.currentId) {
       this.setSliderCss();
     }
   }
-
   checkHeaderPosition() {
     const headerHeight = 75;
     if ($(window).scrollTop() > headerHeight) {
@@ -97,7 +91,6 @@ class NavigationPage {
       $(".nav-container").removeClass("nav-container--top-second");
     }
   }
-
   findCurrentTabSelector(element) {
     let newCurrentId;
     let newCurrentTab;
@@ -121,7 +114,6 @@ class NavigationPage {
       this.setSliderCss();
     }
   }
-
   setSliderCss() {
     let width = 0;
     let left = 0;
@@ -133,13 +125,10 @@ class NavigationPage {
     $(".nav-tab-slider").css("left", left);
   }
 }
-
 new NavigationPage();
-
 /* Credit and Thanks:
 Matrix - Particles.js;
 SliderJS - Ettrics;
 Design - Sara Mazal Web;
 Fonts - Google Fonts
 */
-

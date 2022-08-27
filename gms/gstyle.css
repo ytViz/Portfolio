@@ -1,6 +1,6 @@
 .title {
   font-size: 75px;
-    color: white;
+    color: black;
     font-family: WalkTheMoon;
     text-align: center;
     padding: 15px;
@@ -12,7 +12,7 @@
 }
 
 .body {
-  background-image: url("/img/yay.gif");
+  background-image: url("/img/betterbackground.gif");
   height:100%;
   width:100%;
 }

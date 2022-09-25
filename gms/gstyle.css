@@ -11,7 +11,7 @@
 }
 
 .body {
- background-image: url:("/img/background_img.gif");
+  background-image:url("/img/background.gif");
   height:100%;
   width:100%;
 }

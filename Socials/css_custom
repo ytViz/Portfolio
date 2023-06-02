@@ -1,0 +1,26 @@
+.img {
+    height: 200px;
+    width: 200px;
+    }
+    .vert_txt  {
+      display: table-cell;
+  vertical-align: middle;
+      text-align: center}
+    .title h1 {
+      display: table-cell;
+  vertical-align: middle;
+      text-align: center;
+      font-size:6.5em;
+      font-weight:600;
+    }
+     .p {
+      display: table-cell;
+  vertical-align: middle;
+      text-align: center;
+    }
+    
+body {
+  background-image: url('/img/sehejcssever.gif');
+  height:100%;
+  width:100%;
+    }

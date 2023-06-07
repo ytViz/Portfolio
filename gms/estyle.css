@@ -35,3 +35,11 @@ a {
  
 
 }
+
+.title {
+  font-size: 75px;
+    color: black;
+    font-family: WalkTheMoon;
+    text-align: center;
+    padding: 15px;
+}

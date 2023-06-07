@@ -2,3 +2,14 @@
     height: 200px;
     width: 200px;
     }
+.h2 {
+color:aliceblue;
+font-family: Bradley Hand, cursive
+}
+.p {
+color:rgb(25, 206, 43);
+font-family:Bradley Hand, cursive
+}
+body {
+    background-image: url("/img/neoncat.gif");
+  }
